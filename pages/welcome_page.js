@@ -1,16 +1,27 @@
 import Link from 'next/link'
+import styles from 'styles/Welcome.module.css'
+import Head from 'next/head'
 
 
-export default function Welcome_page () {
+
+export default function Landing_page () {
     return (
         <>
 
-        <Link href='/quiz'>
-            <button>Start Quiz</button>
+            <h1>Welcome back</h1>
+            <div className={styles.inputs}></div>
+            <input placeholder='Enter Email'/>
+            <input placeholder='Enter Password'/>
+        <Link href='/home_page'>
+            
+            <button>Sign Up</button>
             </Link>
-            <Link href='/tutorial'>
-            <button>Tutorial</button>
+            <h3>Forgot Password?</h3>
+            <Link href='/forgot_password'>
+            <h3>Click here</h3>
             </Link>
+            
+          
         
         </>
     )

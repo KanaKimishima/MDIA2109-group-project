@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import Logo from '@/components/Logo'
 
 
 
@@ -15,6 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Logo/>
+      <h1>An escape from reality</h1>
         <Link href='/login'>
           <button>Get Started</button>
         </Link>

@@ -6,7 +6,7 @@ export default function Results () {
     return (
         <>
         <h1>Your results are:</h1>
-        <Link href='/main_content'>
+        <Link href='/home_page'>
         <button>Next</button>
         </Link>
         </>

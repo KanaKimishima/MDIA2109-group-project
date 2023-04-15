@@ -1,0 +1,8 @@
+.quiz_button{
+    background-color: var(--mauve);
+    height: 60px;
+    width: 166px;
+    padding-right: 72px;
+    border-radius: 30px;
+    border: none;
+}

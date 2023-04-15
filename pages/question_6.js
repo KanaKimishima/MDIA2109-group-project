@@ -7,7 +7,7 @@ export default function Question_6 () {
         <h1>Do you have difficulties fallingg asleep?</h1>
         <button>Yes</button>
         <button>No</button>
-        <Link href='/results'>
+        <Link href='/question_7'>
             <button>Next</button>
             </Link>
         </>
