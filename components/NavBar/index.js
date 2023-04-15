@@ -11,7 +11,7 @@ export default function NavBar() {
                     <Link href={"/"}>
                         <Image
                             className={styles.icon}
-                            src= {"./icons/Home.jpg"}
+                            src= {"/icons/Home.jpg"}
                             width={55}
                             height={55}
                         />
@@ -19,7 +19,7 @@ export default function NavBar() {
                     <Link href={"/Help"}>
                         <Image
                             className={styles.icon}
-                            src={"./icons/Help.jpg"}
+                            src={"/icons/Help.jpg"}
                             width={50}
                             height={50}
                         />
@@ -27,7 +27,7 @@ export default function NavBar() {
                     <Link href={"/Music"}>
                         <Image
                             className={styles.icon}
-                            src={"./icons/Music.jpg"}
+                            src={"/icons/Music.jpg"}
                             width={50}
                             height={50}
                         />
@@ -35,7 +35,7 @@ export default function NavBar() {
                     <Link href={"/Profile"}>
                         <Image
                             className={styles.icon}
-                            src={"./icons/Profile.jpg"}
+                            src={"/icons/Profile.jpg"}
                             width={50}
                             height={50}
                         />
