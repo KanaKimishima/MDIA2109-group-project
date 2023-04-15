@@ -11,33 +11,33 @@ export default function NavBar() {
                     <Link href={"/"}>
                         <Image
                             className={styles.icon}
-                            src= {"/icons/Home.jpg"}
-                            width={55}
-                            height={55}
+                            src= {"/icons/Home.png"}
+                            width={64.49}
+                            height={82}
                         />
                     </Link>
                     <Link href={"/Help"}>
                         <Image
                             className={styles.icon}
-                            src={"/icons/Help.jpg"}
-                            width={50}
-                            height={50}
+                            src={"/icons/Help.png"}
+                            width={54.09}
+                            height={77}
                         />
                     </Link>
                     <Link href={"/Music"}>
                         <Image
                             className={styles.icon}
-                            src={"/icons/Music.jpg"}
-                            width={50}
-                            height={50}
+                            src={"/icons/Music.png"}
+                            width={48.6}
+                            height={77}
                         />
                     </Link>
                     <Link href={"/Profile"}>
                         <Image
                             className={styles.icon}
-                            src={"/icons/Profile.jpg"}
-                            width={50}
-                            height={50}
+                            src={"/icons/Profile.png"}
+                            width={61.17}
+                            height={78}
                         />
                     </Link>
                 </div>
