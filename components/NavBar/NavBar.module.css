@@ -1,0 +1,18 @@
+.main {
+    width: 25.875em;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #C8B6FF;
+    padding: 15px 0px;
+    width: 414px;
+}
+.icon {
+    margin-left: 1.65em;
+    margin-right:1.7em;
+}
