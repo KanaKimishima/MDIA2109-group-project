@@ -4,11 +4,13 @@ import styles from 'styles/Question_5.module.css'
 export default function Question_5 () {
     return(
         <>
-        <h1>In the past 30 days how often did you feel anxious, nervous or on the edge?</h1>
-        <button>1-2 Day in a week</button>
-        <button>3-4 Days in a week</button>
-        <button>Every day</button>
-        <Link href='/question_6'>Next</Link>
+        <h1>Do you feeling fatigued or tired?</h1>
+        
+        <button>Never</button>
+        <button>Sometimes</button>
+        <button>often</button>
+        <button>Almost Always</button>
+        <Link href='/question_6'>Next Question</Link>
         </>
     )
 }
