@@ -1,0 +1,9 @@
+.buttons{
+    margin-top: 200px;
+}
+.main_container{
+    background-color: var(--mauve);
+    height: 100px;
+    width: 280px;
+    
+}
