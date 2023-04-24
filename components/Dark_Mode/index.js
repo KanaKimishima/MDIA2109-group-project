@@ -11,9 +11,9 @@ export default function DarkMode() {
 
     useEffect(() => {
         if (isDarkMode) {
-            document.body.classList.add('dark-mode');
+            document.body.classList.add('dark_mode');
         } else {
-            document.body.classList.remove('dark-mode');
+            document.body.classList.remove('dark_mode');
         }
     }, [isDarkMode]);
 
