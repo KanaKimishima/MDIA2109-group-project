@@ -1,4 +1,4 @@
-import styles from 'components/Sound_button/Sound_button.module.css'
+import styles from 'components/SoundButton/SoundButton.module.css'
 export default function Sound() {
     return(
         <>

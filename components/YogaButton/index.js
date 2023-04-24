@@ -1,4 +1,4 @@
-import styles from 'components/Yoga_button/Yoga_button.module.css'
+import styles from 'components/YogaButton/YogaButton.module.css'
 export default function Yoga () {
     return(
         <>

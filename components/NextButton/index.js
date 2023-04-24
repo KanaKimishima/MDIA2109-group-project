@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from './Next_Button.module.css'
+import styles from './NextButton.module.css'
 
 import { useState } from "react";
 

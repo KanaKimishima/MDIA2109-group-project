@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from 'components/nature_sound/Nature.module.css'
+import styles from 'components/NatureSound/Nature.module.css'
 import Link from "next/link";
 export default function Sound1() {
     return(

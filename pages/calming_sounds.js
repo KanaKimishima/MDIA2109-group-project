@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import Sound1 from "@/components/nature_sound";
+import Sound1 from "@/components/NatureSound";
 import styles from '@/styles/Calming_sounds.module.css'
 import NavBar from "@/components/NavBar";
 
