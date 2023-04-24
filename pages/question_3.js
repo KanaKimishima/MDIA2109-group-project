@@ -4,8 +4,8 @@ import styles from 'styles/Question_3.module.css'
 export default function Question_3 () {
     return(
         <>
-        <h1>How often do you feel overwhelmed with your life?</h1>
-        
+        <h1></h1>
+        How often do you feel overwhelmed with your life?
         <button>Never</button>
         <button>Sometimes</button>
         <button>often</button>

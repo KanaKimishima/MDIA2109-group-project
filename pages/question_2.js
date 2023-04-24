@@ -11,7 +11,7 @@ export default function Question_2 () {
         <button>often</button>
         <button>Almost Always</button>
         <Link href='/question_3'>
-        <button>Nex Question</button>
+        <button>Next Question</button>
         </Link>
         </>
     )

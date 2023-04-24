@@ -1,14 +1,19 @@
-import Link from "next/link";
-import styles from 'styles/Quizresults.module.css'
-import Head from "next/head";
+import { useRouter } from "next/router";
 
-export default function Results () {
-    return (
-        <>
-        <h1>Your results are:</h1>
-        <Link href='/home_page'>
-        <button>Next</button>
-        </Link>
-        </>
-    )
+const results = {
+  result1: "Result 1",
+  result2: "Result 2",
+  result3: "Result 3",
+};
+
+export default function Result() {
+  const router = useRouter();
+  const { id } = router.query;
+  const result = results[id];
+  return (
+    <div>
+      <h1>Result</h1>
+      <p>{result}</p>
+    </div>
+  );
 }
