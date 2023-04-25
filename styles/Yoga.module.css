@@ -1,0 +1,9 @@
+.main_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.paragraph{
+    width: 270px;
+}

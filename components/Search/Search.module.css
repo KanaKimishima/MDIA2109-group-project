@@ -1,0 +1,20 @@
+.search_container{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 70px;
+    background-color: var(--pale-purple);
+    border-radius: 30px;
+}
+.inpur_container{
+    border: none;
+    height: 60px;
+    width: 200px;
+    background-color: var(--pale-purple);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.search_icon{
+    margin-left: 30px;
+    margin-top: 25px;
+}

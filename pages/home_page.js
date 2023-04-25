@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Sound from '@/components/Sound_button'
-import Yoga from '@/components/Yoga_button'
-import Sleep from '@/components/Better_Sleep_Button'
-import Quiz from '@/components/Quiz_button'
+import Sound from '@/components/SoundButton'
+import Yoga from '@/components/YogaButton'
+import Sleep from '@/components/BetterSleepButton'
+import Quiz from '@/components/QuizButton'
 import styles from '@/styles/Home.module.css'
 
 export default function Main_content() {

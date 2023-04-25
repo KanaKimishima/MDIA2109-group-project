@@ -1,4 +1,4 @@
-import styles from 'components/Quiz_button/Quiz_button.module.css'
+import styles from 'components/QuizButton/QuizButton.module.css'
 export default function Quiz() {
     return(
         <>
