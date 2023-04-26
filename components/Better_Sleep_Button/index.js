@@ -1,4 +1,4 @@
-import styles from 'components/Better_Sleep_button/Better_Sleep_button.module.css'
+import styles from 'components/Better_Sleep_Button/Better_Sleep_Button.module.css'
 export default function Sleep() {
     return(
         <>

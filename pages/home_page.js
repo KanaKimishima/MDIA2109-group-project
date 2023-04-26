@@ -22,7 +22,7 @@ export default function Main_content() {
         <Link href='/yoga'>
         <Yoga/>
         </Link>
-        <Link href='/quiz'>
+        <Link href='/quizHome'>
         <Quiz/>
         </Link>
         </div>
