@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Quiz () {
     return (
         <>
-        <Link href='/question/0'>
+        <Link href='/question'>
         <button>Start</button>
         </Link>
         </>
