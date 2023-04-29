@@ -3,7 +3,7 @@ export default function Logo () {
     return (
         <>
         <Image src='/logo/Logo_Min_Sizing-2.png'
-        width={300}
+        width={380}
         height={400} ></Image>
         </>
     )

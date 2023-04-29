@@ -1,10 +1,10 @@
-import StartYoga from '@/components/Start_Yoga_Button'
+import StartYoga from '@/components/StartYogaButton'
 import Link from 'next/link'
 import styles from 'styles/Yoga.module.css'
 import Image from 'next/image'
 import NavBar from '@/components/NavBar'
 
-export default function Physical_relaxation () {
+export default function Yoga () {
     return(
         <>
         <div className={styles.main_content}>

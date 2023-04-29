@@ -5,7 +5,7 @@ export default function Search() {
     return(
         <>
         <div className={styles.search_container}>
-            <Image className={styles.search_icon} src='/icons/Icon.png'
+            <Image className={styles.search_icon} src='/icons/SearchIcon.png'
             width={19}
             height={20}/>
             <input className={styles.inpur_container} placeholder="Search Content"/>

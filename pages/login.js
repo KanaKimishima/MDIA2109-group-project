@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 import styles from 'styles/Login.module.css'
+import SignUp from '@/components/SignUpButton'
 
 export default function Main_content() {
     return(
@@ -21,8 +22,8 @@ export default function Main_content() {
         
        
        
-        <Link href='/welcome_page'>
-        <button>Sign Up</button>
+        <Link href='/WelcomePage'>
+       <SignUp/>
         </Link>
       
         </>

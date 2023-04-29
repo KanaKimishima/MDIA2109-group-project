@@ -1,9 +1,18 @@
 import styles from 'components/BetterSleepbutton/BetterSleepButton.module.css'
-export default function Sleep() {
+import Link from 'next/link'
+import Image from 'next/image'
+export default function BeterSleep() {
     return(
         <>
            <div >
-        <button className={styles.better_sleep_button}>Better Sleep</button>
+            <Link href='BetterSleep'>
+            <button className={styles.better_sleep_button}>
+            <p className={styles.button_name}>Better Sleep</p>
+        <Image className={styles.better_sleep_icon_icon} src="/icons/nights_stay.png" 
+        width={39}
+        height={39}/>
+        </button>
+        </Link>
         </div>
         </>
     )

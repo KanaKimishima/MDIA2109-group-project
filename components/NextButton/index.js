@@ -4,7 +4,7 @@ import styles from './NextButton.module.css'
 
 import { useState } from "react";
 
-export default function Next() {
+export default function NextButton() {
     return(
         <>
          <button className={styles.next} >

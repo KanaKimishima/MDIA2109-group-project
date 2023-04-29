@@ -5,4 +5,14 @@
     padding-right: 72px;
     border-radius: 30px;
     border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sounds_icon{
+   margin-top: 5px;
+}
+.button_name{
+    margin-left: 20px;
+    margin-top: 20px;
 }

@@ -1,14 +1,12 @@
-.home_buttons{
-    display: flex;
-    gap: 19px;
+.main{
+    background-color: var(--pale-purple);
+    height: 844px;
+    width: 400px;
+   
 }
-.first_column_buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 50px; 
+.logo{
+    padding-left: 30px;
 }
-.second_column_buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 50px; 
+.description{
+    padding-left: 35px;
 }
