@@ -1,0 +1,7 @@
+.button{
+    width: 293px;
+    height: 64px;
+    border: none;
+    border-radius: 77px;
+    background-color: var(--mimi-pink);
+}

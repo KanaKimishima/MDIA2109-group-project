@@ -1,0 +1,15 @@
+.yoga_button{
+    background-color: var(--light-green);
+    height: 60px;
+    width: 166px;
+    padding-right: 72px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 10px;
+}
+.button_name{
+    margin-left: 35px;
+}

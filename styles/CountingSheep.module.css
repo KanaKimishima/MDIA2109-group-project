@@ -1,0 +1,7 @@
+.main_content{
+    display: flex;
+    flex-direction: column;
+    gap: 137px;
+    margin-top: 226px ;
+    margin-left: 57px;
+}

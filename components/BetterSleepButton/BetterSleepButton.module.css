@@ -1,0 +1,17 @@
+.better_sleep_button{
+    background-color: var(--non-photo-blue);
+    height: 60px;
+    width: 166px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.button_name{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.better_sleep_icon_icon{
+    margin-top: 10px;
+}

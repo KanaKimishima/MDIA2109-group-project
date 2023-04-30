@@ -1,0 +1,18 @@
+.quiz_button{
+    background-color: var(--mauve);
+    height: 60px;
+    width: 166px;
+    padding-right: 72px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.quiz_icon{
+    padding-top: 11px;
+}
+.button_name{
+    padding-left: 30px;
+    padding-top: 6px;
+}
