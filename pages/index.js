@@ -7,6 +7,7 @@ import Logo from '@/components/Logo'
 
 
 export default function Home() {
+  var description = process.env.NEXT_PUBLIC_DESCRIPTION
   return (
     <>
       {/* <Head>
@@ -21,7 +22,7 @@ export default function Home() {
         <Link href='/login'>
           <button>Get Started</button>
         </Link>
-      
+        {description}
       </main>
     </>
   )

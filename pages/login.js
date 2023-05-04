@@ -21,7 +21,7 @@ export default function Main_content() {
         
        
        
-        <Link href='/welcome_page'>
+        <Link href='/welcomePage'>
         <button>Sign Up</button>
         </Link>
       

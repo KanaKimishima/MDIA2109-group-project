@@ -6,7 +6,7 @@ import CountingSheepButton from '@/components/CountingSheepButton'
 import Image from 'next/image'
 
 
-export default function BetterSleep () {
+export default function BetterSleepPage () {
     return(
         <>
         <Image src='/graphics/BetterSleep-2.png'

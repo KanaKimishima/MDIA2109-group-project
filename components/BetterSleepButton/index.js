@@ -5,7 +5,7 @@ export default function BeterSleep() {
     return(
         <>
            <div >
-            <Link href='BetterSleep'>
+            <Link href='betterSleepPage'>
             <button className={styles.better_sleep_button}>
             <p className={styles.button_name}>Better Sleep</p>
         <Image className={styles.better_sleep_icon_icon} src="/icons/nights_stay.png" 

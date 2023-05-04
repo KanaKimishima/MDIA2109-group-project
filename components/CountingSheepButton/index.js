@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function CountingSheepButton(){
     return(
         <>
-        <Link href="/CountingSheep">
+        <Link href="/countingSheep">
         <button className={styles.button}>Counting Sheep</button></Link>
         </>
     )

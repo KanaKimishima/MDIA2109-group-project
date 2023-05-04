@@ -12,7 +12,7 @@ export default function LandingPage () {
             <div className={styles.inputs}></div>
             <input placeholder='Enter Email'/>
             <input placeholder='Enter Password'/>
-        <Link href='/MainContent'>
+        <Link href='/mainContent'>
             
             <button>Sign Up</button>
             </Link>
