@@ -6,11 +6,7 @@ export default function PlayPause() {
     const[button, changeButton] = useState(<Image src='/icons/Pause_button.png' width={100} height={100}/>)
     return(
         <>
-        <div>
-        <button onClick={() => changeButton(" <Image src='/icons/Pause_button.png' width={100} height={100}/>")}><Image src='/icons/Play_button.png' width={100} height={100}/>
-         </button>
-        
-        </div>
+     <button><Image src='Play_button/icons/.png'/></button>
         </>
     )
 

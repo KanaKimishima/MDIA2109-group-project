@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import styles from './Answers.module.css';
+import styles from 'components/Answers/Answers.module.css'
 import { useState } from 'react'
 
 const Answers = ({ currentQuestion, setAnswer }) => {
