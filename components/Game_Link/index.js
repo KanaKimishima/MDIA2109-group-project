@@ -16,6 +16,7 @@ const Game_Link = ({ gameId }) => {
       <>
       <h2>Seems like you need to relax.</h2>
       <p>Recommended actions for you</p>
+      <link rel=""></link>
       </>
     ),
     (
@@ -25,7 +26,7 @@ const Game_Link = ({ gameId }) => {
 
       <div>
         <p>Simple tasks can help relieve stress.</p>
-        <p>Play the game of counting sheep!</p>
+        <p>Play the game of counting sheep!</p>¥
       </div>
       
       </>

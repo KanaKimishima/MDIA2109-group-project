@@ -9,14 +9,14 @@ const result = (props) => {
     <div>
       <h1>result</h1>
       <div>
-        Two lines of text come here
+        ...
       </div>
       <Game_Link gameId={id} />
       <div>
-        <Link href="/someLink1">
+        <Link href="/home_page">
           Contents See more
         </Link>
-        <Link href="/someLink2">
+        <Link href="/contact_professional">
           learn More
         </Link>
       </div>

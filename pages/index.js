@@ -4,8 +4,6 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
 
-
-
 export default function Home() {
   return (
     <>
