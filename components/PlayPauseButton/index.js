@@ -3,10 +3,27 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from 'components/PlayPauseButton/PausePlay.module.css'
 export default function PlayPause() {
-    const[button, changeButton] = useState(<Image src='/icons/Pause_button.png' width={100} height={100}/>)
+    const[image, changeImage] = useState(<Image src='/icons/Pause_button.png' width={100} height={100}/>)
     return(
         <>
-     <button><Image src='Play_button/icons/.png'/></button>
+     <button className={styles.play}  onClick={() => changeImage(<Image src='/icons/Play_button.png'
+     width={70}
+     height={70}/> )}>
+         <Image src='/icons/Previous_button.png'
+     width={70}
+     height={70}/>
+   
+   <Image src='/icons/Play_button.png'
+     width={70}
+     height={70}/>
+     <Image src='/icons/Next_button.png'
+     width={70}
+     height={70}/>
+   
+     </button>
+   
+     
+     
         </>
     )
 
