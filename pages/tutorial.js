@@ -41,7 +41,7 @@ export default function Tutorial() {
               </div>
           </div>
         </div>
-      </div>
       </main>
-}
-
+      </div>
+     
+      )}

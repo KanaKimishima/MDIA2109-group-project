@@ -16,12 +16,7 @@ export default function Login() {
 
         </div>
 
-      
-
-        
-       
-       
-        <Link href='/welcomePageTeehee'>
+       <Link href='/welcomePageTeehee'>
         <button>Sign Up</button>
         </Link>
       
