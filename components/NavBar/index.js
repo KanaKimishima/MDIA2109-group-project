@@ -8,41 +8,40 @@ export default function NavBar() {
         <>
             <div className={styles.main}>
                 <div className={styles.icons}>
-                    <Link href={"/"}>
+                    <Link href={"/mainContent"}>
                         <Image
                             className={styles.icon}
                             src= {"/icons/Home.png"}
                             width={64.49}
-                            height={82}
+                            height={65}
                         />
                     </Link>
-                    <Link href={"/Help"}>
+                    <Link href={"/contactProfessionalPeople"}>
                         <Image
                             className={styles.icon}
                             src={"/icons/Help.png"}
-                            width={54.09}
-                            height={77}
+                            width={48.6}
+                            height={52}
                         />
                     </Link>
-                    <Link href={"/Music"}>
+                    <Link href={"/calmingNoiseSounds"}>
                         <Image
                             className={styles.icon}
                             src={"/icons/Music.png"}
-                            width={48.6}
-                            height={77}
+                            width={60}
+                            height={60}
                         />
                     </Link>
-                    <Link href={"/Profile"}>
+                    <Link href={"/profile"}>
                         <Image
                             className={styles.icon}
                             src={"/icons/Profile.png"}
-                            width={61.17}
-                            height={78}
+                            width={50.47}
+                            height={54}
                         />
                     </Link>
                 </div>
-                <div className={styles.base}>
-                </div>
+               
             </div>
         </>
     )
