@@ -31,10 +31,6 @@ export default function LandingPage () {
             <Link href='/mainContent'>
                 <button>Sign Up</button>
             </Link>
-            <h3>Forgot Password?</h3>
-            <Link href='/forgot_password'>
-                <h3>Click here</h3>
-            </Link>
             <div className={styles.animation__container} ref={animationContainer}/>
         </>
     )

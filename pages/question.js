@@ -6,10 +6,10 @@ import Answers from '@/components/Answers'
 const question = () => {
   const questions = [
     "How are you feeling today?",
-    "How aften Do you struggle to fall asleep at night?",
-    "question3",
-    "question4",
-    "question5",
+    "How often Do you struggle to fall asleep at night?",
+    "How often do you feel overwhelmed with your life?",
+    "How often do you work out?",
+    "How often do you feel anxious or worried?",
     "question6",
     "question7"
   ]
@@ -47,7 +47,7 @@ const question = () => {
       <h1>{ questions[question] }</h1>
       <br />
       <div>
-        <h2>question prompt - props</h2>
+        <h2>...</h2>
         <Answers currentQuestion={question} setAnswer={handleClick} />
       </div>
       {
@@ -61,7 +61,7 @@ const question = () => {
           : (
             // depending on the total number of often and almost Always
             // the value of the query param is determined
-            <Link href={`result/${countAnswers()}`}>
+            <Link href={`countingSheepGame/`}>
               See the result
             </Link>
           )

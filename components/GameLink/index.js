@@ -36,7 +36,7 @@ const GameLink = ({ gameId }) => {
       <h3> {linkContents[gameId - 1]} </h3>
       <Image alt='image at the center' ></Image>
       <div>
-        <Link href="/playSomeGame">Play</Link>
+        <Link href="/countingSheepGame">Play</Link>
       </div>
     </div>
   )

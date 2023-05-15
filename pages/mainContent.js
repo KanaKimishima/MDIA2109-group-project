@@ -21,7 +21,7 @@ export default function MainContent() {
 
         <div className={styles.home_buttons}>
         <div className={styles.first_column_buttons}>
-        <Link href='/calmingSounds'>
+        <Link href='/calmingNoiseSounds'>
         <Sound/>
         </Link>
         <Link href='/betterSleepPage'>

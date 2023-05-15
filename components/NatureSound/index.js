@@ -5,7 +5,7 @@ export default function NatureSound() {
     return(
         <>
         <div className={styles.main_content}>
-            <Link href='/natureSound'>
+            <Link href='/natureNoiseSound'>
             <button className={styles.first_container}>
                <p className={styles.title_one}>Nature</p> 
                 <Image className={styles.icon} src='/icons/Nature_sound.png'
@@ -13,7 +13,7 @@ export default function NatureSound() {
                 height={40}/>
             </button>
             </Link>
-            <Link href='/rainSound'>
+            <Link href='/rainNoiseSound'>
         <button className={styles.second_container}>
         <p className={styles.title_two}>Rain</p> 
         <Image className={styles.icon_two} src='/icons/Rain_icon.png'
@@ -21,7 +21,7 @@ export default function NatureSound() {
                 height={40}/>
         </button>
         </Link>
-        <Link href='/brownNoise'>
+        <Link href='/brownNoiseSound'>
         <button className={styles.third_container}>
         <p className={styles.title_three}>Brown noise</p> 
         <Image className={styles.icon_three} src='/icons/Brown_noise.png'
