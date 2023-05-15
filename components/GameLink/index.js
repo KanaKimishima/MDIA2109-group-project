@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import styles from './styles.module.css';
 
-const Game_Link = ({ gameId }) => {
+const GameLink = ({ gameId }) => {
   const linkContents = [
     (
       <>
@@ -42,4 +42,4 @@ const Game_Link = ({ gameId }) => {
   )
 }
 
-export default Game_Link
+export default GameLink

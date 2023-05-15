@@ -6,7 +6,7 @@ import Sleep from '@/components/Better_Sleep_Button'
 import Quiz from '@/components/Quiz_button'
 import styles from '@/styles/Home.module.css'
 
-export default function Main_content() {
+export default function HomePage() {
     return(
         <>
         <div className={styles.home_buttons}>
