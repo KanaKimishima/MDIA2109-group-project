@@ -1,4 +1,4 @@
-import styles from 'components/BetterSleepbutton/BetterSleepButton.module.css'
+import styles from 'BetterSleepButton.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 export default function BeterSleep() {
