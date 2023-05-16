@@ -5,7 +5,6 @@ import styles from '@/BetterSleep.module.css'
 import CountingSheepButton from '@/components/CountingSheepButton'
 import Image from 'next/image'
 
-
 export default function BetterSleepPage () {
     return(
         <>
