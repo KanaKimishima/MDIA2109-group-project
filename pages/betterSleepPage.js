@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import NavBar from '@/components/NavBar'
 import SleepAdvicesButton from '@/components/SleepAdvicesButton'
-import styles from './BetterSleep.module.css'
+import styles from '@/BetterSleep.module.css'
 import CountingSheepButton from '@/components/CountingSheepButton'
 import Image from 'next/image'
 
