@@ -7,7 +7,7 @@ const result = (props) => {
   const { id } = useRouter().query;
   return (
     <div>
-      <h1 className={header}>result</h1>
+      <h1>result</h1>
       <div>
         Recommended actions for you
       </div>
