@@ -1,0 +1,27 @@
+
+
+.choices {
+    background-color: var(--mimi-pink);
+
+}
+
+.first {
+    background: none;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 40px;
+    justify-content: center;
+}
+
+.second {
+    background: none;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 40px;
+    padding: 0 30px;
+    justify-content: center;
+}

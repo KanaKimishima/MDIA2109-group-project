@@ -33,7 +33,7 @@ export default function MainContent() {
         <Link href='/yoga'>
         <Yoga/>
         </Link>
-        <Link href='/quizHome'>
+        <Link href='/question'>
         <QuizButton/>
         </Link>
         </div>

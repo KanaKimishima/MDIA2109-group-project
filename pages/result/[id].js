@@ -2,25 +2,28 @@ import React from 'react'
 import Link from 'next/link'
 import Game_Link from '@/components/Game_Link'
 import { useRouter } from 'next/router'
+import styles from '@/styles/Results.module.css'
+import NavBar from '@/components/NavBar'
 
 const result = (props) => {
   const { id } = useRouter().query;
   return (
-    <div>
-      <h1>result</h1>
-      <div>
-        Recommended actions for you
-      </div>
+    <div className={styles.container}>
+      
       <Game_Link gameId={id} />
-      <div>
-        <Link href="/home_page">
-          Contents See more
+
+      <div className={styles.buttons}>
+        <Link className={styles.seemore} href="/home_page">
+          See More Contents
         </Link>
-        <Link href="/contact_professional">
+
+        <Link className={styles.learnmore} href="/contact_professional">
           learn More
         </Link>
       </div>
+      <NavBar/>
     </div>
+    
   )
 }
 

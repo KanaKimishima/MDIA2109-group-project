@@ -11,6 +11,12 @@ const Game_Link = ({ gameId }) => {
       <h2>Seems like you need to be more active.</h2>
       <p>Recommended actions for you</p>
       <h1>Yoga</h1>
+        <Link  href="/yoga">
+          <Image className={styles.logo} src='/images/yogaresult.png'
+          width={300}
+          height={350}>
+          </Image>
+        </Link>
       </>
     ),
     (
@@ -18,7 +24,12 @@ const Game_Link = ({ gameId }) => {
       <>
       <h2>Seems like you need to relax.</h2>
       <p>Recommended actions for you</p>
-      <link rel=""></link>
+        <Link  href="/calmingNoiseSounds">
+          <Image className={styles.logo} src='/images/soundimg.png'
+          width={300}
+          height={350}>
+          </Image>
+        </Link>
       </>
     ),
     (
@@ -29,7 +40,13 @@ const Game_Link = ({ gameId }) => {
 
       <div>
         <p>Simple tasks can help relieve stress.</p>
-        <p>Play the game of counting sheep!</p>¥
+        <p>Play the game of counting sheep!</p>
+        <Link  href="/sheepanimation">
+          <Image className={styles.logo} src='/images/counting.png'
+          width={300}
+          height={350}>
+          </Image>
+        </Link>
       </div>
       
       </>
@@ -38,9 +55,8 @@ const Game_Link = ({ gameId }) => {
   return (
     <div>
       <h3> {linkContents[gameId - 1]} </h3>
-      <Image alt='image at the center' ></Image>
       <div>
-        <Link href="/playSomeGame">Play</Link>
+        <Link href="/playSomeGame"></Link>
       </div>
     </div>
   )
