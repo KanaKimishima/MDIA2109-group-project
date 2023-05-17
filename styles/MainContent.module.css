@@ -1,3 +1,8 @@
+.main_container{
+    margin-left: 400px;
+    height: 844px;
+    width: 828px;
+}
 .header{
     width: 400px;
     height: 110px;
@@ -11,6 +16,7 @@
     display: flex;
     gap: 19px;
     margin-top: 70px;
+    margin-left: 30px;
 }
 .first_column_buttons{
     display: flex;
@@ -22,15 +28,20 @@
     flex-direction: column;
     gap: 50px; 
 }
-.quote{
+.quote_container{
     margin-top: 50px;
     height: 50px;
     width: 400px;
     background-color: var(--pale-purple);
-    padding-left: 40px;
+    padding-left: 20px;
    
 }
+.quote{
+    margin-left: 30px;
+    margin-top: 2px;
+}
 .graphic{
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
     
 }

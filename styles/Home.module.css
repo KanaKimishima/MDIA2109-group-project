@@ -2,11 +2,18 @@
     background-color: var(--pale-purple);
     height: 844px;
     width: 400px;
+    margin-left: 400px;
    
 }
 .logo{
-    padding-left: 30px;
+    padding-left: 97px;
+    padding-top: 160px;
 }
 .description{
-    padding-left: 35px;
+    padding-left: 50px;
+}
+.quote{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: var(--oxford-blue);
 }

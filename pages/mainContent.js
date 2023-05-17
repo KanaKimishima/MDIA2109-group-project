@@ -14,6 +14,7 @@ import Image from 'next/image'
 export default function MainContent() {
     return(
         <>
+        <div className={styles.main_container}>
         <div className={styles.header}>
         <SettingsButton className={styles.icon}/>
         </div>
@@ -38,11 +39,12 @@ export default function MainContent() {
         </div>
 
         </div>
-        <div className={styles.quote}>
-        <h1>Relax!Life is beautiful</h1>
+        <div className={styles.quote_container}>
+        <h1 className={styles.quote}>Relax!Life is beautiful</h1>
         </div>
         <Image className={styles.graphic} width={342} height={248} src="/graphics/RelaxGraphic.png"/>
         <NavBar/>
+        </div>
      
         </>
     )

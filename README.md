@@ -18,3 +18,4 @@ better sleep advices
 # command lines
 - npx create-next-app
 - npm run dev
+- npm i react-chartjs-2 

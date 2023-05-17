@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
+import GetStarted from '@/components/GetStartedButton'
+import TutorialButton from '@/components/TutorialButton'
 
 
 
@@ -18,12 +20,9 @@ export default function Home() {
       </Head> */}
       <main className={styles.main}>
         <Logo/>
-      <h1>An escape from reality</h1>
-        <Link href='/login'>
-          <button>Get Started</button>
-        </Link>
-        <Link href='/tutorial'>
-        <button>tutorial</button></Link>
+      <h1 className={styles.quote}>An escape from reality</h1>
+       <GetStarted/>
+       <TutorialButton/>
         {description}
       </main>
     </>
