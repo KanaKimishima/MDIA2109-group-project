@@ -1,0 +1,30 @@
+.mainContent{
+    margin-left: 400px;
+}
+.firstParagraph{
+    width: 334px;
+    height: 150px;
+    margin-left: 33px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+.secondParagraph{
+    width: 334px;
+    height: 130px;
+    margin-left: 33px;
+    font-size: 17px;
+
+}
+.thirdParagraph{
+    width: 334px;
+    height: 100px;
+    margin-left: 33px;
+    font-size: 17px;
+}
+.fourthParagraph{
+    width: 334px;
+    height: 50px;
+    margin-left: 33px;
+    font-size: 20px;
+    font-weight: bold;
+}

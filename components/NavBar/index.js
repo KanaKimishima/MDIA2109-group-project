@@ -20,24 +20,24 @@ export default function NavBar() {
                         <Image
                             className={styles.icon}
                             src={"/icons/Help.png"}
-                            width={48.6}
-                            height={52}
+                            width={52}
+                            height={55}
                         />
                     </Link>
                     <Link href={"/calmingNoiseSounds"}>
                         <Image
                             className={styles.icon}
                             src={"/icons/Music.png"}
-                            width={60}
-                            height={60}
+                            width={54}
+                            height={54}
                         />
                     </Link>
                     <Link href={"/profile"}>
                         <Image
                             className={styles.icon}
                             src={"/icons/Profile.png"}
-                            width={50.47}
-                            height={54}
+                            width={60}
+                            height={62}
                         />
                     </Link>
                 </div>

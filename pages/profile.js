@@ -6,7 +6,7 @@ export default function Profile() {
     return(
         <>
           <main>               
-              
+              <div className={styles.mainContent}>
               <div className={styles.profileContainer}>                  
                 <div className={styles.profileInfo}>                     
                    <Image className={styles.profileImage}                      
@@ -42,7 +42,7 @@ export default function Profile() {
                                          </div>   
                                          </div>
                                          <NavBar/>    
-                                         
+                                         </div>         
                      </main>                     
        
         
