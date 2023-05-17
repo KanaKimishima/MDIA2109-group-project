@@ -1,0 +1,10 @@
+.button{
+    width: 353px;
+    height: 56px;
+    border: none;
+    border-radius: 77px;
+    background-color: var(--mimi-pink);
+    margin-top: 40px;
+    margin-left: 20px;
+
+}

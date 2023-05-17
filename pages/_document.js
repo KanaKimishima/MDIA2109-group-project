@@ -6,11 +6,11 @@ export default function Document() {
       <Head />
       <body>
         <div>
-          This is replaced by top nav bar
+          
         </div>
         <Main />
         <div>
-          This is replaced by bottom nav bar
+         
         </div>
         <NextScript />
       </body>

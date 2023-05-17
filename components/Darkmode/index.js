@@ -1,4 +1,4 @@
-import styles from 'components/DarkMode/Darkmode.module.css'
+import styles from './Darkmode.module.css'
 import { useState } from 'react';
 import { useEffect } from 'react';
 
