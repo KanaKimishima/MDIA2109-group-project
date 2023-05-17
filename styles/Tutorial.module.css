@@ -1,0 +1,14 @@
+.inner_container{
+    position: absolute;
+    height: 844px;
+    width: 400px;
+    background-color: var(--pale-purple);
+    overflow: auto;
+    margin-left: 400px;
+}
+
+.lists{
+    font-size: var(--font-16px);
+    margin-top: 0.5em;
+}
+
