@@ -4,7 +4,9 @@ import styles from 'components/StartCountingButton/StartCountingButton.module.cs
 export default function StartCountingButton() {
     return(
         <>
+        <Link href='/sheepAnimation'>
         <button className={styles.button}>Start Counting</button>
+        </Link>
         </>
     )
 }
