@@ -16,12 +16,13 @@ export default function Tutorial() {
 
   return (
     <>
-    
     <div className={styles.body_main}>
+      <Link href='/login'>
+    <BackButton/>
+    </Link>
     <main className={styles.main}>
     <div className={styles.main_image}>
               <div className={styles.inner_container}>
-                <BackButton/>
                 <div  className={styles.inside_texts}>
                 <h1 className={styles.lists}>Welcome to Pause, your favourite relaxation app</h1>
                 <li className={styles.lists}>Start a session:</li>
@@ -34,12 +35,8 @@ export default function Tutorial() {
                 <li className={styles.lists}>App will signal when session is over</li>
                 <li className={styles.lists}>You may continue to meditate on your own, or end the session and return to the home screen</li>
                 <li className={styles.lists}>Other app features:</li>
-                <li className={styles.lists}>"Settings" to have dark/ light mode which will be on your top left </li>
-                
+                <li className={styles.lists}>"Settings" to have dark/light mode which will be on your top left </li>
                 <div className={styles.container}>
-                
-
-                
             </div>
             </div>
           </div>
