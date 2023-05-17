@@ -1,5 +1,19 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+}
 .inputs{
     display: flex;
     flex-direction: column;
     width: 300px;
+}
+.inputs{
+    background-color: var(--pale-purple);
+    height: 144px;
+    width: 400px;
+    margin-left: 400px;
+}
+
+.title{
+    margin-left: 550px;
 }

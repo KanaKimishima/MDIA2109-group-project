@@ -22,16 +22,11 @@ export default function LandingPage () {
     }, [])
 
     return (
+        
         <>
-
-            <h1>Welcome back</h1>
-            <div className={styles.inputs}></div>
-            <input placeholder='Enter Email'/>
-            <input placeholder='Enter Password'/>
             <Link href='/mainContent'>
-                <button>Sign Up</button>
-            </Link>
             <div className={styles.animation__container} ref={animationContainer}/>
+            </Link>
         </>
     )
 }
