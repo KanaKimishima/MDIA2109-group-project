@@ -7,9 +7,9 @@ import GetStarted from '@/components/GetStartedButton'
 import TutorialButton from '@/components/TutorialButton'
 
 
-
 export default function Home() {
-  var description = process.env.NEXT_PUBLIC_DESCRIPTION
+  var description = process.env.NEXT_PUBLIC_DESCRIPTION;
+  
   return (
     <>
       {/* <Head>
