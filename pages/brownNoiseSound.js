@@ -13,7 +13,7 @@ export default function BrownNoise() {
                 <Link href='/mainContent'>
                     <GoBackButton/>
                 </Link>
-                <h1 className={styles.pageTitle}>Brown Noise</h1>
+                <h1 className={styles.pageTitle}>Waves Noise</h1>
             </div>
          <Image src='/images/BrownNoise.png'
         width={400}

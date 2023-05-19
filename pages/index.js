@@ -8,7 +8,7 @@ import TutorialButton from '@/components/TutorialButton'
 
 
 export default function Home() {
-  var description = process.env.NEXT_PUBLIC_DESCRIPTION;
+  
   
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home() {
       <h1 className={styles.quote}>An escape from reality</h1>
        <GetStarted/>
        <TutorialButton/>
-        {description}
+        
       </main>
     </>
   )

@@ -12,6 +12,7 @@
 
 .first:nth-child(1) {
     background-color: var(--mimi-pink);
+   
     border: none;
     border-radius: 20px;
 }
