@@ -46,18 +46,18 @@ const question = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.question}>{ questions[question] }</h1>
+      <h1 className={styles.questiontext}>{ questions[question] }</h1>
       <br />
-      <div>
+      <div className={styles.answer}>
         
-        <Answers currentQuestion={question} setAnswer={handleClick} />
+        <Answers  currentQuestion={question} setAnswer={handleClick} />
       </div>
       {
         question < 6
           ?
           (
             <button className={styles.nextQ} onClick={onNextQuestionClick} >
-              Next Question
+              <p className={styles.question}>Next Question</p>
             </button>
           )
           : (

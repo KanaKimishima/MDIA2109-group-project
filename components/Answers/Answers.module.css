@@ -1,27 +1,123 @@
 
-
-.choices {
-    background-color: var(--mimi-pink);
-
-}
-
 .first {
     background: none;
-    border: none;
-    width: 150px;
-    height: 60px;
-    border-radius: 30px;
-    margin: 40px;
-    justify-content: center;
+    margin: 25px;
+    display: block;
+    padding-left: 50px;
+    padding-top: 15px;
+    width: 120px;
+    height: 40px;
+    margin-left: 150px;
 }
+
+.first:nth-child(1) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.first:nth-child(1):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+
+.first:nth-child(2) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.first:nth-child(2):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.first:nth-child(3) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.first:nth-child(3):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.first:nth-child(4) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.first:nth-child(4):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.first:nth-child(5) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.first:nth-child(5):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
 
 .second {
     background: none;
-    border: none;
-    width: 150px;
-    height: 60px;
-    border-radius: 30px;
-    margin: 40px;
-    padding: 0 30px;
-    justify-content: center;
+    margin: 25px;
+    display: block;
+    padding-left: 50px;
+    padding-top: 15px;
+    width: 120px;
+    height: 40px;
+    margin-left: 150px;
 }
+
+.second:nth-child(1) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.second:nth-child(1):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+
+.second:nth-child(2) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.second:nth-child(2):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.second:nth-child(3) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.second:nth-child(3):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.second:nth-child(4) {
+    background-color: var(--mimi-pink);
+    border: none;
+    border-radius: 20px;
+}
+
+.second:nth-child(4):hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }

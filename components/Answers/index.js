@@ -14,11 +14,9 @@ const Answers = ({ currentQuestion, setAnswer }) => {
     <>
       { currentQuestion == 0 
     ? (
-        <div className={styles.choice}>{
+        <div className={styles.choices}>{
           answers[0].map(a => (
-            <div className={styles.choices} key={a}>
-              <span className={styles.first}>{a}</span>
-            </div>
+            <span className={styles.first} key={a} >{a}</span>
           ))
         }</div>
         )

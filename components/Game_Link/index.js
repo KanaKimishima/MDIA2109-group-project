@@ -10,7 +10,6 @@ const Game_Link = ({ gameId }) => {
       <>
       <h2>Seems like you need to be more active.</h2>
       <p>Recommended actions for you</p>
-      <h1>Yoga</h1>
         <Link  href="/yoga">
           <Image className={styles.logo} src='/images/yogaresult.png'
           width={300}
@@ -25,9 +24,9 @@ const Game_Link = ({ gameId }) => {
       <h2>Seems like you need to relax.</h2>
       <p>Recommended actions for you</p>
         <Link  href="/calmingNoiseSounds">
-          <Image className={styles.logo} src='/images/soundimg.png'
+          <Image className={styles.logo} src='/images/soundsimg.png'
           width={300}
-          height={350}>
+          height={400}>
           </Image>
         </Link>
       </>

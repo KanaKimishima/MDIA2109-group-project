@@ -1,0 +1,26 @@
+.container {
+    margin-left: 550px;
+}
+.nextQ {
+    padding-left: 30px;
+    padding-top: 6px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--mimi-pink);
+    height: 60px;
+    width: 140px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.nextQ:hover {
+    background-color: #FFEBFF;
+    color: #333;
+  }
+
+.answer {
+    padding-bottom: 50px;
+}

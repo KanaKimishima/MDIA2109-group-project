@@ -1,32 +1,47 @@
 .container {
-    justify-content: center;
+    margin-left: 550px;
 }
 
 .buttons {
     display: flex;
-    padding-top: 80px;
    
 }
 
 .seemore {
     color: black;
-    padding-right: 50px;
-    margin-top: 50px;
+    padding-right: 30px;
+    margin-top: 30px;
     background-color: var(--mimi-pink);
     width: 100px;
     height: 50px;
     text-decoration: none;
     border-radius: 30px;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.seemore:hover {
+    background-color: #FFEBFF;
+    color: black;
 }
 
 .learnmore {
     color: black;
     font-size: 15px;
-    padding-right: 50px;
-    margin-top: 50px;
+    padding-right: 30px;
+    margin-top: 30px;
     background-color: var(--mimi-pink);
     width: 100px;
     height: 50px;
     text-decoration: none;
     border-radius: 30px;
+    margin-left: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.learnmore:hover {
+    background-color: #FFEBFF;
+    color: black;
 }
