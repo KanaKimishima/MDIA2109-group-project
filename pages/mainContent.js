@@ -16,7 +16,7 @@ export default function MainContent() {
         <>
         <div className={styles.main_container}>
         <div className={styles.header}>
-        <SettingsButton className={styles.icon}/>
+        
         </div>
         <Search/>
 
