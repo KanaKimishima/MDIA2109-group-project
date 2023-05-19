@@ -6,4 +6,19 @@
 }
 .paragraph{
     width: 270px;
+    margin-left: 70px;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.mainContainer{
+    margin-left: 400px;
+}
+.topBar{
+    background-color: var(--mauve);
+    height: 100px;
+    width: 400px;
+}
+.pageTitle{
+    padding-left: 165px;
+    padding-top: 30px;
 }

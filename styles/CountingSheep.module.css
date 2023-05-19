@@ -1,7 +1,28 @@
+.mainContainer{
+    margin-left: 400px;
+    height: 812px;
+}
 .main_content{
     display: flex;
     flex-direction: column;
     gap: 137px;
-    margin-top: 226px ;
-    margin-left: 57px;
+    
+    
 }
+.imageContainer{
+    background-color: var(--mimi-pink);
+    width: 150px;
+    justify-content: center;
+    margin-left: 135px;
+    border-radius: 15px;
+}
+.topBar{
+    height: 100px;
+    background-color: var(--mauve);
+    width: 400px;
+}
+.pageTitle{
+    padding-left: 110px;
+    padding-top: 30px;
+}
+

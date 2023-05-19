@@ -1,6 +1,23 @@
+.mainContent{
+    margin-left: 400px;
+}
 .buttons{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 270px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.graphic{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.topBar{
+    height: 100px;
+    background-color: var(--mauve);
+    width: 400px;
+}
+.pageTitle{
+    padding-left: 50px;
+    padding-top: 30px;
 }

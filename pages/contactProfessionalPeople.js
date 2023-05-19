@@ -7,6 +7,11 @@ export default function ContactProffesional() {
     return(
         <>
         <div className={styles.mainContent}>
+            <div className={styles.topBar}>
+                <h1 className={styles.pageTitle}>
+                    Contact Professional
+                </h1>
+            </div>
          <Image src="/images/ContactProfessional.png"
         width={399}
         height={248}/>

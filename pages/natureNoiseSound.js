@@ -6,16 +6,19 @@ import PlayPause from "../components/PlayPauseButton";
 import PauseButton from "@/components/PauseButton";
 import Previous from "@/components/PreviousButton";
 
-import AudioPlayer from "@/components/AudioPlayer";
+import SecondAudioPlayer from "@/components/SecondAudioPlayer";
 export default function NatureSound() {
     return(
        <>
        <div className={styles.mainContent}>
-        <Image src='/images/CalmingSoundsImages.png'
+        <div className={styles.topBar}>
+            <h1 className={styles.pageTitle}>Nature Sound</h1>
+        </div>
+        <Image src='/images/NatureSoundsImages.png'
         width={400}
         height={500}/>
       
-     <AudioPlayer/>
+     <SecondAudioPlayer/>
    
 
        

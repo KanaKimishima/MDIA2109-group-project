@@ -8,7 +8,11 @@ import Image from 'next/image'
 export default function BetterSleepPage () {
     return(
         <>
-        <Image src='/graphics/BetterSleep-2.png'
+        <div className={styles.mainContent}> 
+        <div className={styles.topBar}>
+          <h1 className={styles.pageTitle}>Better Sleep</h1>
+        </div>
+        <Image className={styles.graphic} src='/graphics/BetterSleep-2.png'
         width={295}
         height={217}/>
 
@@ -18,6 +22,7 @@ export default function BetterSleepPage () {
       </div>
       
         <NavBar/>
+        </div>
         </>
     )
 }

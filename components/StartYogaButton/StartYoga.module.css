@@ -1,7 +1,9 @@
 .button{
     background-color: var(--mimi-pink);
-    width: 100px;
+    width: 180px;
     height: 50px;
     border: none;
     border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
 }

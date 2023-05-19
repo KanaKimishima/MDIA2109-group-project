@@ -70,14 +70,14 @@ return(
     </div>
     </div>
     <div className={styles.buttonRow}>
-        <Link href='/brownNoiseSound'>
+        <Link href='/natureNoiseSound'>
     <Previous/>
     </Link>
     <button className={styles.play_pause_button} onClick={togglePlayPause}>
         {isPlaying ? <PauseButton/> : <PlayButton/> }
        
     </button>
-    <Link href='/rainNoiseSound'>
+    <Link href='/brownNoiseSound'>
     <NextButton/>
     </Link>
     </div>

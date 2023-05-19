@@ -1,9 +1,18 @@
 .buttons{
     margin-top: 200px;
+    margin-left: 50px;
 }
 .main_container{
     background-color: var(--mauve);
     height: 100px;
-    width: 280px;
+    width: 400px;
     
+}
+.mainContainer{
+    margin-left: 400px;
+}
+.pageTitle{
+    margin-left: 140px;
+    font-size: 20px;
+    font-weight: bold;
 }

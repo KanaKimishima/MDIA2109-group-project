@@ -7,6 +7,10 @@ import Image from 'next/image'
 export default function Yoga () {
     return(
         <>
+        <div className={styles.mainContainer}>
+            <div className={styles.topBar}>
+                <h1 className={styles.pageTitle}> Yoga </h1>
+            </div>
         <div className={styles.mainContent}>
          <Image src='/images/Yoga.png'
         width={400}
@@ -19,6 +23,7 @@ export default function Yoga () {
         </Link>
         </div>
         <NavBar/>
+        </div>
        
         </>
     )

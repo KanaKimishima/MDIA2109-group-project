@@ -8,11 +8,14 @@ import NatureSound from "@/components/NatureSound";
 export default function CalmingSounds() {
     return (
         <>
-        <div className={styles.main_container}>Calming Sounds</div>
+        <div className={styles.mainContainer}>
+        <div className={styles.main_container}>
+            <h1 className={styles.pageTitle}>Calming Sounds</h1></div>
         <div className={styles.buttons}>
         <NatureSound/>
         </div>
     <NavBar/>
+    </div>
         
      
         

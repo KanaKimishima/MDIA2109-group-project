@@ -1,27 +1,64 @@
+.mainContent{
+    margin-left: 400px;
+}
+.topContainer{
+    width: 400px;
+    height: 120px;
+    background-color: var(--mauve);
+}
+.pageTitle{
+    padding-top: 50px;
+    font-weight: 17px;
+}
 .advice_one{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_two{
     width: 305px;
+    margin-left: 40px;
+
 }
 .title_three{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_three{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_four{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_five{
     width: 305px;
+    margin-left: 40px;
 }
 .title_four{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_six{
     width: 305px;
+    margin-left: 40px;
 }
 .advice_seven{
     width: 305px;
+    margin-left: 40px;
+}
+.title_one{
+    margin-left: 40px;
+}
+.title_two{
+    margin-left: 40px;
+}
+.title_five{
+    margin-left: 40px;
+}
+.title_six{
+    margin-left: 40px;
+}
+.title_seven{
+    margin-left: 40px;
 }

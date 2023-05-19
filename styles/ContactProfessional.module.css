@@ -28,3 +28,12 @@
     font-size: 20px;
     font-weight: bold;
 }
+.topBar{
+    height: 100px;
+    background-color: var(--mauve);
+    width: 400px;
+}
+.pageTitle{
+    padding-left: 50px;
+    padding-top: 30px;
+}
