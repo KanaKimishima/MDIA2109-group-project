@@ -8,7 +8,7 @@ import NavBar from '@/components/NavBar'
 const question = () => {
   const questions = [
     "How are you feeling today?",
-    "How often Do you struggle to fall asleep at night?",
+    "How often do you struggle to fall asleep at night?",
     "How often do you feel overwhelmed with your life?",
     "How often do you experience physical symptoms such as headaches or muscle tension due to stress?",
     "How often do you feel you don't have much time to relax?",
@@ -63,7 +63,7 @@ const question = () => {
           : (
             // depending on the total number of often and almost Always
             // the value of the query param is determined
-            <Link href={`result/${countAnswers()}`}>
+            <Link className={styles.result} href={`result/${countAnswers()}`}>
               See the result
             </Link>
           )

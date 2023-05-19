@@ -1,5 +1,6 @@
 .container {
     margin-left: 550px;
+    width: 400px;
 }
 .nextQ {
     padding-left: 30px;
@@ -18,9 +19,31 @@
 
 .nextQ:hover {
     background-color: #FFEBFF;
-    color: #333;
+    color: black;
   }
 
 .answer {
     padding-bottom: 50px;
+}
+
+.result {
+    padding-left: 30px;
+    padding-top: 6px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--mimi-pink);
+    height: 50px;
+    width: 140px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.nextQ:hover {
+    background-color: #FFEBFF;
+    color: black;
 }

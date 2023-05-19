@@ -13,11 +13,11 @@ const result = (props) => {
       <Game_Link gameId={id} />
 
       <div className={styles.buttons}>
-        <Link className={styles.seemore} href="/home_page">
+        <Link className={styles.seemore} href="/homepage">
           See More Contents
         </Link>
 
-        <Link className={styles.learnmore} href="/contact_professional">
+        <Link className={styles.learnmore} href="/contactProfessionalPeople">
           learn More
         </Link>
       </div>
