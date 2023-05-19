@@ -2,12 +2,16 @@ import Head from "next/head";
 import NavBar from "@/components/NavBar";
 import styles from '@/styles/ContactProfessional.module.css'
 import Image from "next/image";
-
+import GoBackButton from "@/components/GoBackButton";
+import Link from "next/link";
 export default function ContactProffesional() {
     return(
         <>
         <div className={styles.mainContent}>
             <div className={styles.topBar}>
+            <Link href='/mainContent'>
+          <GoBackButton/>
+          </Link>
                 <h1 className={styles.pageTitle}>
                     Contact Professional
                 </h1>

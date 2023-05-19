@@ -1,3 +1,14 @@
 .mainContainer{
     margin-left: 400px;
 }
+.topBar{
+    height: 100px;
+    background-color: var(--mauve);
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.pageTitle{
+    padding-left: 25px;
+    padding-top: 10px;
+}

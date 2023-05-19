@@ -20,9 +20,11 @@
     height: 100px;
     background-color: var(--mauve);
     width: 400px;
+    display: flex;
+    flex-direction: row;
 }
 .pageTitle{
-    padding-left: 110px;
-    padding-top: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 

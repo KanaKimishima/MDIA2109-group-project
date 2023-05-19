@@ -5,9 +5,11 @@
     width: 400px;
     height: 120px;
     background-color: var(--mauve);
+    display: flex;
+    flex-direction: row;
 }
 .pageTitle{
-    padding-top: 50px;
+    padding-top: 10px;
     font-weight: 17px;
 }
 .advice_one{

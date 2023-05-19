@@ -1,3 +1,13 @@
 .mainContent{
     margin-left: 400px;
 }
+.topBar{
+    height: 100px;
+    background-color: var(--mauve);
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.profileContainer{
+    margin-top: 30px;
+}

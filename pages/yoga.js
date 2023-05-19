@@ -3,12 +3,18 @@ import styles from 'styles/Yoga.module.css'
 import StartYogaButton from '@/components/StartYogaButton'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
+import GoBackButton from '@/components/GoBackButton'
 
 export default function Yoga () {
     return(
         <>
         <div className={styles.mainContainer}>
+        
             <div className={styles.topBar}>
+
+            <Link href='/mainContent'>
+                <GoBackButton/>
+                </Link>
                 <h1 className={styles.pageTitle}> Yoga </h1>
             </div>
         <div className={styles.mainContent}>

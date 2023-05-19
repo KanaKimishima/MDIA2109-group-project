@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import lottie from 'lottie-web'
 import NavBar from '@/components/NavBar';
+import GoBackButton from '@/components/GoBackButton';
 import { createRef, useEffect } from 'react'
 
 export default function SheepAnimation() {
@@ -21,9 +22,19 @@ export default function SheepAnimation() {
   
     return(
         <>
+        <div className={styles.mainContent}>
+        <div className={styles.topBar}>
+        <Link href='/countingSheepGame'>
+                <GoBackButton/>
+                </Link>
+        </div>
+        
 
 <div className={styles.animation__container} ref={animationContainer}/>
 <NavBar/>
+</div>
+
+
         </>
     )
     

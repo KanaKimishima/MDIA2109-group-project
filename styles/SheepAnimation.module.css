@@ -1,5 +1,18 @@
-.animation__container {
-    width: 828px;
-    height: 900px;
-    margin-left: 200px;
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
 }
+.animation__container {
+    width: 400px;
+    height: 810px;
+    margin-right: 400px;
+}
+
+    .topBar{
+        height: 100px;
+        background-color: var(--mauve);
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+    }

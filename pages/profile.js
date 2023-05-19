@@ -2,11 +2,18 @@ import NavBar from "@/components/NavBar"
 import Head from "next/head"
 import Image from "next/image"
 import styles from 'styles/Profile.module.css'
+import Link from "next/link"
+import GoBackButton from "@/components/GoBackButton"
 export default function Profile() {
     return(
         <>
           <main>               
               <div className={styles.mainContent}>
+                <div className={styles.topBar}>
+              <Link href='/mainContent'>
+          <GoBackButton/>
+          </Link>
+          </div>
               <div className={styles.profileContainer}>                  
                 <div className={styles.profileInfo}>                     
                    <Image className={styles.profileImage}                      

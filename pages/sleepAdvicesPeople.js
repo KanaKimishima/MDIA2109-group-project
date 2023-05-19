@@ -2,12 +2,17 @@ import Head from "next/head";
 import styles from 'styles/SleepAdvices.module.css'
 import NavBar from "@/components/NavBar";
 import PieChart from "@/components/BarChart";
+import Link from "next/link";
+import GoBackButton from "@/components/GoBackButton";
 export default function SleepAdvices () {
     return(
         <>
         <div className={styles.mainContent}>
             <div className={styles.topContainer}>
-        <h1 className={styles.pageTitle}>Tips to get a good night sleep</h1>
+            <Link href='/betterSleepPage'>
+                <GoBackButton/>
+                </Link>
+        <h1 className={styles.pageTitle}>Get a good night sleep</h1>
         </div>
         <PieChart/>
         <h3 className={styles.title_one}>1. Avoid caffeine late in the day</h3>

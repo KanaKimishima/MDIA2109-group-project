@@ -5,7 +5,7 @@
     margin-left: 50px;
 }
 .paragraph{
-    width: 270px;
+    width: 300px;
     margin-left: 70px;
     font-size: 17px;
     margin-top: 40px;
@@ -17,8 +17,13 @@
     background-color: var(--mauve);
     height: 100px;
     width: 400px;
+    display: flex;
+    flex-direction: row;
 }
 .pageTitle{
-    padding-left: 165px;
-    padding-top: 30px;
+    
+    padding-top: 10px;
+    padding-left: 60px;
+    font-weight: 17px;
+   
 }
