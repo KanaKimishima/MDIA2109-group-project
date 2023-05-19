@@ -1,19 +1,53 @@
-.mainContent{
-    display: flex;
-    flex-direction: column;
-}
+
 .inputs{
     display: flex;
     flex-direction: column;
+    gap: 40px;
     width: 300px;
+    margin-left: 30px;
+    margin-top: 80px;
+    
 }
-.inputs{
-    background-color: var(--pale-purple);
-    height: 144px;
-    width: 400px;
-    margin-left: 400px;
+.nameinput{
+border: none;
+height: 30px;
+border-radius: 15px;
+padding-left: 15px;
+}
+.usernameinput{
+    border: none;
+height: 30px;
+border-radius: 15px;
+padding-left: 15px;
+}
+.emailinput{
+    border: none;
+height: 30px;
+border-radius: 15px;
+padding-left: 15px;
+}
+.passwordinput{
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.reenterpasswordinput{
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 15px;
 }
 
+
+
+.mainContainer{
+    background-color: var(--pale-purple);
+    width: 400px;
+    height: 812px;
+    margin-left: 400px;
+}
 .title{
-    margin-left: 550px;
+    margin-left: 130px;
+    padding-top: 30px;
 }

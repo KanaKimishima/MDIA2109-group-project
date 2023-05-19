@@ -7,20 +7,22 @@ import styles from 'styles/Login.module.css'
 export default function Login() {
     return(
         <>
+        <div className={styles.mainContainer}>
         <h1 className={styles.title}>Sign Up</h1>
-        <div className={styles.mainContent}>
+       
         <div className={styles.inputs}>
-        <input placeholder='Enter Full Name'/>
-        <input placeholder='Enter Username'/>
-        <input placeholder='Enter Email'/>
-        <input placeholder='Enter Password'/>
-        <input placeholder='Re-enter Password'/>
+        <input className={styles.nameinput} placeholder='Enter Full Name'/>
+        <input className={styles.usernameinput} placeholder='Enter Username'/>
+        <input className={styles.emailinput} placeholder='Enter Email'/>
+        <input className={styles.passwordinput} placeholder='Enter Password'/>
+        <input className={styles.reenterpasswordinput}placeholder='Re-enter Password'/>
 
         </div>
 
        <Link href='/welcomePageTeehee'>
        <SignUp/>
         </Link>
+       
         </div>
       
         </>
